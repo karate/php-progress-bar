@@ -1,7 +1,7 @@
 # ProgressBar
 A simple progress bar to keep users informed during long-running php scripts.
 ```
-70/100 [============================>            ] - 70%
+42/55 [=====================================================>                 ] - 76%
 ```
 
 *Based on a StackOverflow comment: http://stackoverflow.com/a/27147177/5805496*
@@ -23,7 +23,7 @@ Change the total number of items
 ```php
 // I just found out there are 10 more items
 $total = $bar->get_total_items();
-$bar->set_total_items($total + 10)
+$bar->set_total_items($total + 10);
 ```
 Change the length of the progress bar
 ```php
